@@ -1,0 +1,27 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gridDisplay {
+  display: grid;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.picture {
+  display: flex;
+  border: 10px solid;
+  content: 20px;
+}
